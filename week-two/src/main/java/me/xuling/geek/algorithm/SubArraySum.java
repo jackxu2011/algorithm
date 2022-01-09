@@ -10,6 +10,7 @@ import java.util.Map;
  * @since 2022/1/9
  **/
 public class SubArraySum {
+
     public int subarraySum(int[] nums, int k) {
         int[] preSum = new int[nums.length+2];
         Map<Integer, Integer> preSumMap = new HashMap<>(){{
