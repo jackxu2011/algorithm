@@ -1,11 +1,15 @@
 package me.xuling.geek.algorithm;
 
+import java.util.PriorityQueue;
+
 /**
  * @author jack
  * @since 2022/3/17
  **/
 public class Jump {
     public boolean canJump(int[] nums) {
+        PriorityQueue<?> data = new PriorityQueue<>();
+
         int n = nums.length;
         if (n == 1) {
             return true;
@@ -30,4 +34,5 @@ public class Jump {
         }
         return false;
     }
+
 }

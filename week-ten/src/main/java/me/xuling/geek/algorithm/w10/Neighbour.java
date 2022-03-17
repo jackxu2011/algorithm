@@ -1,4 +1,4 @@
-package me.xuling.geek.algorithm;
+package me.xuling.geek.algorithm.w10;
 
 import java.util.Arrays;
 import java.util.Comparator;
